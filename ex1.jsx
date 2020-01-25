@@ -37,7 +37,6 @@ const findSum = (arr, wei) => {
 	});
 	return -1;
 };
-console.log(args);
 funk == '-hashtable'
 	? findSum(arz, weiz)
 	: funk == '-o2'
