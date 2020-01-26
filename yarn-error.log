@@ -1,0 +1,36 @@
+Arguments: 
+  /snap/node/2494/bin/node /snap/node/2494/bin/yarn.js global dir
+
+PATH: 
+  :/home/goth/.npm-global/bin::/home/goth/.npm-global/bin:/home/goth/.zplugin/plugins/vim---vim:/home/goth/.zplugin/plugins/docker---compose:/home/goth/.zplugin/plugins/junegunn---fzf-bin:/home/goth/.zplugin/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  13.0.0-nightly20190802452b393c1f
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, write
+      at writeSync (fs.js:588:3)
+      at SyncWriteStream._write (internal/fs/sync_write_stream.js:22:3)
+      at doWrite (_stream_writable.js:418:12)
+      at writeOrBuffer (_stream_writable.js:402:5)
+      at SyncWriteStream.Writable.write (_stream_writable.js:302:11)
+      at ConsoleReporter._log (/snap/node/2494/lib/cli.js:96497:17)
+      at ConsoleReporter.log (/snap/node/2494/lib/cli.js:96485:10)
+      at dir (/snap/node/2494/lib/cli.js:36245:14)
+      at Object.<anonymous> (/snap/node/2494/lib/cli.js:25930:25)
+      at Generator.next (<anonymous>)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
